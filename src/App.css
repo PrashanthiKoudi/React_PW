@@ -1,0 +1,67 @@
+/* Add this CSS to your stylesheet or component */
+
+body {
+  font-family: 'Helvetica Neue', sans-serif; /* Change the font family as needed */
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2; /* Change the background color as needed */
+}
+
+.App {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff; /* Change the background color as needed */
+  text-align: center;
+}
+
+h1 {
+  color: #1a1a1a; /* Change the text color as needed */
+}
+
+
+ul {
+color: #1a1a1a;
+}
+
+li {
+  background-color:black; /* Change the background color as needed */
+  color: white;
+}
+
+/* Existing styles */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #3498db; /* Change the header background color as needed */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #ffffff; /* Change the header text color as needed */
+}
+
+.App-link {
+  color: #2ecc71; /* Change the link color as needed */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
